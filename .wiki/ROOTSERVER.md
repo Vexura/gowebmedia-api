@@ -79,7 +79,7 @@ $root_password = "test124!";
 $os_id = 333;
 $ipv4 = 1;
 $ipv6 = 0
-$response = $client->rootServer()->manage()->create($vm_id, $os_id, $root_password);
+$response = $client->rootServer()->manage()->create($cpu_type, $hostname, $cores, $disk, $ram, $backups, $root_password, $os_id, $ipv4, $ipv6);
 print_r($response);
 ```
 
