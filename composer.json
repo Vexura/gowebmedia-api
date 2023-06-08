@@ -12,7 +12,8 @@
     ],
     "support": {
         "issues": "https://github.com/Vexura/gowebmedia-api/issues",
-        "source": "https://github.com/Vexura/gowebmedia-api"
+        "source": "https://github.com/Vexura/gowebmedia-api",
+        "wiki": "https://github.com/Vexura/gowebmedia-api/wiki"
     },
     "require": {
         "php": ">=7.2",
