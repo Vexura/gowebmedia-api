@@ -145,7 +145,7 @@ class GoWebMediaAPI
     /**
      * @return RootServer
      */
-    public function rootserver(): RootServer
+    public function rootServer(): RootServer
     {
         if (!$this->rootServerHandler) $this->rootServerHandler = new RootServer($this);
         return $this->rootServerHandler;
