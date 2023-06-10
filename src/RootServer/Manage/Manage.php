@@ -54,7 +54,7 @@ class Manage
     }
 
     public function create(string $cpu_type, string $hostname, int $cores, int $disk, int $ram, int $backups, string $root_password, int $os_id, int $ipv4, int $ipv6 = 0){
-        return $this->GoWebMediaAPI->post('products/rootserver/order' . $cpu_type, [
+        return $this->GoWebMediaAPI->post('products/rootserver/order/' . $cpu_type, [
             "hostname" => $hostname,
             "cores" => $cores,
             "disk" => $disk,
